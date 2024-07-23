@@ -1,0 +1,212 @@
+<asset_composite xmlns="http://namespaces.softwareag.com/acdl/1.0" targetNamespace="http://namespaces.softwareag.com/webMethods/IS" name="WmJDBCAdapter" runtimeVersion="10.11.0.0">
+  <implementation.generic type="ispackage" />
+  <buildInfo name="build.version" value="10.3.6" />
+  <buildInfo name="BuildVersion" value="10.3.6" />
+  <buildInfo name="BuildTimestamp" value="2024-07-21T16:48:00" />
+  <buildInfo name="MinimumTargetRuntimeVersion" value="${watt.server.deployer.targetVersion}" />
+  <property name="activatePkgOnInstall" displayName="Activate Package On Install">
+    <value>true</value>
+  </property>
+  <property name="archivePkgOnInstall" displayName="Archive Package On Install">
+    <value>true</value>
+  </property>
+  <property name="compilePackage" displayName="Compile Package On Install">
+    <value>true</value>
+  </property>
+  <property name="fragPackage" displayName="Fragment Package On Install">
+    <value>true</value>
+  </property>
+  <property name="clearACLs" displayName="Delete ACLs for the assets from the target Integration Server">
+    <value>false</value>
+  </property>
+  <property name="disallowActivePackageInstall" displayName="Disallow Active Package Install">
+    <value>false</value>
+  </property>
+  <property name="packageExecutionCheck" displayName="Package Execution Check">
+    <value>0</value>
+  </property>
+  <property name="suspendTriggersDuringDeploy" displayName="Suspend Triggers During Deployment">
+    <value>false</value>
+  </property>
+  <property name="syncDocTypesToBroker" displayName="Synchronize Document Types During Deployment">
+    <value>true</value>
+  </property>
+  <property name="restartRuntimes" displayName="restartRuntimes">
+    <value>false</value>
+  </property>
+  <asset name="WmJDBCAdapter.code.jars" displayName="code/jars">
+    <implementation.generic type="isfolder" />
+  </asset>
+  <asset name="WmJDBCAdapter.code.jars.fdb-sql-parser-1.2.0.jar" displayName="code/jars/fdb-sql-parser-1.2.0.jar">
+    <implementation.generic type="isfile" />
+  </asset>
+  <asset name="WmJDBCAdapter.config" displayName="config">
+    <implementation.generic type="isfolder" />
+  </asset>
+  <asset name="WmJDBCAdapter.config.Keywords" displayName="config/Keywords">
+    <implementation.generic type="isfolder" />
+  </asset>
+  <asset name="WmJDBCAdapter.config.Keywords.CASSANDRAKeywords.xml" displayName="config/Keywords/CASSANDRAKeywords.xml">
+    <implementation.generic type="isfile" />
+  </asset>
+  <asset name="WmJDBCAdapter.config.Keywords.CloudSpannerKeywords.xml" displayName="config/Keywords/CloudSpannerKeywords.xml">
+    <implementation.generic type="isfile" />
+  </asset>
+  <asset name="WmJDBCAdapter.config.Keywords.DB2AS400V4Keywords.xml" displayName="config/Keywords/DB2AS400V4Keywords.xml">
+    <implementation.generic type="isfile" />
+  </asset>
+  <asset name="WmJDBCAdapter.config.Keywords.DB2AS400V5Keywords.xml" displayName="config/Keywords/DB2AS400V5Keywords.xml">
+    <implementation.generic type="isfile" />
+  </asset>
+  <asset name="WmJDBCAdapter.config.Keywords.DB2OS390Keywords.xml" displayName="config/Keywords/DB2OS390Keywords.xml">
+    <implementation.generic type="isfile" />
+  </asset>
+  <asset name="WmJDBCAdapter.config.Keywords.DB2UDBKeywords.xml" displayName="config/Keywords/DB2UDBKeywords.xml">
+    <implementation.generic type="isfile" />
+  </asset>
+  <asset name="WmJDBCAdapter.config.Keywords.HANAKeywords.xml" displayName="config/Keywords/HANAKeywords.xml">
+    <implementation.generic type="isfile" />
+  </asset>
+  <asset name="WmJDBCAdapter.config.Keywords.HIVEKeywords.xml" displayName="config/Keywords/HIVEKeywords.xml">
+    <implementation.generic type="isfile" />
+  </asset>
+  <asset name="WmJDBCAdapter.config.Keywords.IMPALAKeywords.xml" displayName="config/Keywords/IMPALAKeywords.xml">
+    <implementation.generic type="isfile" />
+  </asset>
+  <asset name="WmJDBCAdapter.config.Keywords.INFORMIXKeywords.xml" displayName="config/Keywords/INFORMIXKeywords.xml">
+    <implementation.generic type="isfile" />
+  </asset>
+  <asset name="WmJDBCAdapter.config.Keywords.Keywords.xml" displayName="config/Keywords/Keywords.xml">
+    <implementation.generic type="isfile" />
+  </asset>
+  <asset name="WmJDBCAdapter.config.Keywords.Keywords.xsd" displayName="config/Keywords/Keywords.xsd">
+    <implementation.generic type="isfile" />
+  </asset>
+  <asset name="WmJDBCAdapter.config.Keywords.MONGODBKeywords.xml" displayName="config/Keywords/MONGODBKeywords.xml">
+    <implementation.generic type="isfile" />
+  </asset>
+  <asset name="WmJDBCAdapter.config.Keywords.MSSQLKeywords.xml" displayName="config/Keywords/MSSQLKeywords.xml">
+    <implementation.generic type="isfile" />
+  </asset>
+  <asset name="WmJDBCAdapter.config.Keywords.MYSQLKeywords.xml" displayName="config/Keywords/MYSQLKeywords.xml">
+    <implementation.generic type="isfile" />
+  </asset>
+  <asset name="WmJDBCAdapter.config.Keywords.NOSUPPORTKeywords.xml" displayName="config/Keywords/NOSUPPORTKeywords.xml">
+    <implementation.generic type="isfile" />
+  </asset>
+  <asset name="WmJDBCAdapter.config.Keywords.OPENEDGEKeywords.xml" displayName="config/Keywords/OPENEDGEKeywords.xml">
+    <implementation.generic type="isfile" />
+  </asset>
+  <asset name="WmJDBCAdapter.config.Keywords.ORACLEKeywords.xml" displayName="config/Keywords/ORACLEKeywords.xml">
+    <implementation.generic type="isfile" />
+  </asset>
+  <asset name="WmJDBCAdapter.config.Keywords.POSTGRESKeywords.xml" displayName="config/Keywords/POSTGRESKeywords.xml">
+    <implementation.generic type="isfile" />
+  </asset>
+  <asset name="WmJDBCAdapter.config.Keywords.POSTGRESQLKeywords.xml" displayName="config/Keywords/POSTGRESQLKeywords.xml">
+    <implementation.generic type="isfile" />
+  </asset>
+  <asset name="WmJDBCAdapter.config.Keywords.SPARKSQLKeywords.xml" displayName="config/Keywords/SPARKSQLKeywords.xml">
+    <implementation.generic type="isfile" />
+  </asset>
+  <asset name="WmJDBCAdapter.config.Keywords.SYBASEKeywords.xml" displayName="config/Keywords/SYBASEKeywords.xml">
+    <implementation.generic type="isfile" />
+  </asset>
+  <asset name="WmJDBCAdapter.config.Keywords.TERADATAKeywords.xml" displayName="config/Keywords/TERADATAKeywords.xml">
+    <implementation.generic type="isfile" />
+  </asset>
+  <asset name="WmJDBCAdapter.config.Keywords.TiberoKeywords.xml" displayName="config/Keywords/TiberoKeywords.xml">
+    <implementation.generic type="isfile" />
+  </asset>
+  <asset name="WmJDBCAdapter.config.CASSANDRATypeMapping.xml" displayName="config/CASSANDRATypeMapping.xml">
+    <implementation.generic type="isfile" />
+  </asset>
+  <asset name="WmJDBCAdapter.config.CloudSpannerTypeMapping.xml" displayName="config/CloudSpannerTypeMapping.xml">
+    <implementation.generic type="isfile" />
+  </asset>
+  <asset name="WmJDBCAdapter.config.DB2AS400V4TypeMapping.xml" displayName="config/DB2AS400V4TypeMapping.xml">
+    <implementation.generic type="isfile" />
+  </asset>
+  <asset name="WmJDBCAdapter.config.DB2AS400V5TypeMapping.xml" displayName="config/DB2AS400V5TypeMapping.xml">
+    <implementation.generic type="isfile" />
+  </asset>
+  <asset name="WmJDBCAdapter.config.DB2OS390TypeMapping.xml" displayName="config/DB2OS390TypeMapping.xml">
+    <implementation.generic type="isfile" />
+  </asset>
+  <asset name="WmJDBCAdapter.config.DB2UDBTypeMapping.xml" displayName="config/DB2UDBTypeMapping.xml">
+    <implementation.generic type="isfile" />
+  </asset>
+  <asset name="WmJDBCAdapter.config.dbConfig.xml" displayName="config/dbConfig.xml">
+    <implementation.generic type="isfile" />
+  </asset>
+  <asset name="WmJDBCAdapter.config.dbConfig.xsd" displayName="config/dbConfig.xsd">
+    <implementation.generic type="isfile" />
+  </asset>
+  <asset name="WmJDBCAdapter.config.driverConfig.xml" displayName="config/driverConfig.xml">
+    <implementation.generic type="isfile" />
+  </asset>
+  <asset name="WmJDBCAdapter.config.driverConfig.xsd" displayName="config/driverConfig.xsd">
+    <implementation.generic type="isfile" />
+  </asset>
+  <asset name="WmJDBCAdapter.config.HANATypeMapping.xml" displayName="config/HANATypeMapping.xml">
+    <implementation.generic type="isfile" />
+  </asset>
+  <asset name="WmJDBCAdapter.config.HIVETypeMapping.xml" displayName="config/HIVETypeMapping.xml">
+    <implementation.generic type="isfile" />
+  </asset>
+  <asset name="WmJDBCAdapter.config.IMPALATypeMapping.xml" displayName="config/IMPALATypeMapping.xml">
+    <implementation.generic type="isfile" />
+  </asset>
+  <asset name="WmJDBCAdapter.config.INFORMIXTypeMapping.xml" displayName="config/INFORMIXTypeMapping.xml">
+    <implementation.generic type="isfile" />
+  </asset>
+  <asset name="WmJDBCAdapter.config.JDBCAdapterRegistration.yaml" displayName="config/JDBCAdapterRegistration.yaml">
+    <implementation.generic type="isfile" />
+  </asset>
+  <asset name="WmJDBCAdapter.config.MONGODBTypeMapping.xml" displayName="config/MONGODBTypeMapping.xml">
+    <implementation.generic type="isfile" />
+  </asset>
+  <asset name="WmJDBCAdapter.config.MSSQLTypeMapping.xml" displayName="config/MSSQLTypeMapping.xml">
+    <implementation.generic type="isfile" />
+  </asset>
+  <asset name="WmJDBCAdapter.config.MYSQLTypeMapping.xml" displayName="config/MYSQLTypeMapping.xml">
+    <implementation.generic type="isfile" />
+  </asset>
+  <asset name="WmJDBCAdapter.config.NOSUPPORTTypeMapping.xml" displayName="config/NOSUPPORTTypeMapping.xml">
+    <implementation.generic type="isfile" />
+  </asset>
+  <asset name="WmJDBCAdapter.config.OPENEDGETypeMapping.xml" displayName="config/OPENEDGETypeMapping.xml">
+    <implementation.generic type="isfile" />
+  </asset>
+  <asset name="WmJDBCAdapter.config.ORACLETypeMapping.xml" displayName="config/ORACLETypeMapping.xml">
+    <implementation.generic type="isfile" />
+  </asset>
+  <asset name="WmJDBCAdapter.config.POSTGRESQLTypeMapping.xml" displayName="config/POSTGRESQLTypeMapping.xml">
+    <implementation.generic type="isfile" />
+  </asset>
+  <asset name="WmJDBCAdapter.config.POSTGRESTypeMapping.xml" displayName="config/POSTGRESTypeMapping.xml">
+    <implementation.generic type="isfile" />
+  </asset>
+  <asset name="WmJDBCAdapter.config.SPARKSQLTypeMapping.xml" displayName="config/SPARKSQLTypeMapping.xml">
+    <implementation.generic type="isfile" />
+  </asset>
+  <asset name="WmJDBCAdapter.config.SYBASETypeMapping.xml" displayName="config/SYBASETypeMapping.xml">
+    <implementation.generic type="isfile" />
+  </asset>
+  <asset name="WmJDBCAdapter.config.TERADATATypeMapping.xml" displayName="config/TERADATATypeMapping.xml">
+    <implementation.generic type="isfile" />
+  </asset>
+  <asset name="WmJDBCAdapter.config.TiberoTypeMapping.xml" displayName="config/TiberoTypeMapping.xml">
+    <implementation.generic type="isfile" />
+  </asset>
+  <asset name="WmJDBCAdapter.config.TypeMapping.xml" displayName="config/TypeMapping.xml">
+    <implementation.generic type="isfile" />
+  </asset>
+  <asset name="WmJDBCAdapter.config.TypeMapping.xsd" displayName="config/TypeMapping.xsd">
+    <implementation.generic type="isfile" />
+  </asset>
+  <asset name="WmJDBCAdapter.config.updates" displayName="config/updates">
+    <implementation.generic type="isfolder" />
+  </asset>
+</asset_composite>
+
